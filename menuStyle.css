@@ -1,0 +1,29 @@
+* {
+    font-family: "Comfortaa", sans-serif;
+}
+#logo {
+    width: 150px;
+    height: auto;
+    vertical-align: middle;
+}
+.topBar {
+    position: relative;
+    height: auto;
+    top: 0;
+    margin-inline: auto;
+    z-index: 1;
+}
+.topButtons {
+    background-color: transparent;
+    color: black;
+    margin-inline: .5%;
+    padding-inline: 10px;
+    width: auto;
+    height: 50px;
+    border: 0;
+    border-radius: 50px;
+}
+.topButtons:hover {
+    color: white;
+    background-color: rgb(33,18,75);
+}

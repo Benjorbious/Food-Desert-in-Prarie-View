@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All PVAMU's food options opening and closing times</title>
+    <style>
+        body {
+            background-color: purple;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .underline {
+            text-decoration: underline;
+        }
+        .circle-img {
+            border-radius: 100%;
+            animation: rotate 2s linear;
+        }
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <center><u><h2>All PVAMU's food options opening and closing times</h2></u></center>
+    <center><img src="Hours.jpg" alt= "Image" width="200" height="150" class= "circle-img"></center>
+       
+    <table>
+        <tr>
+            <th>Restaurants</th>
+            <th>Hours</th>
+        </tr>
+        <tr>
+            <td><h4>Bistro Limited</h4></td>
+            <td><h4>Monday-Friday:</h4> 11:00AM - 1:30PM</td>
+        </tr>
+        <tr>
+            <td><h4>Chick-fil-A</h4></td>
+            <td><h4>Monday-Friday:</h4> 8:00AM - 9:00PM</td>
+        </tr>
+        <tr>
+            <td><h4>Jazzman's Bakery & Café</h4></td>
+            <td><h4>Monday-Thursday:</h4> 7:30AM - 5:00PM (Friday: 7:30AM - 3:00PM)</td>
+        </tr>
+        <tr>
+            <td><h4>It's Loaded</h4></td>
+            <td><h4>Monday-Thursday:</h4> 11:00AM - 8:30PM (Friday: 11:00AM - 4:00PM)</td>
+        </tr> 
+        <tr>
+            <td><h4>Pizza Hut</h4></td>
+            <td><h4>Monday-Friday:</h4></h4> 11:00AM - 9:00PM(Friday: 11:00AM - 8:00PM)</td>
+        </tr>
+        <tr>
+            <td><h4>Bistro 1876</h4></td>
+            <td>Monday-Friday: 11:00AM - 7:00PM</td>
+        </tr>
+        <tr>
+            <td><h4>Panther Mart</h4></td>
+            <td>Monday-Friday:</h4> 8:00AM - 8:00PM</td>
+        </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        <table>
+        <tr>
+            <th>Dining Hall</th>
+            <th>Hours</th>
+        </tr>
+        <tr>
+            <td><h4>MSC Dining Facility</h4></td>
+            <td><h4>Monday-Thursday: </h4> 
+                 Breakfast: 7:00AM - 10:00AM <br>
+                 Lunch: 11:00AM - 2:00PM <br>
+                 Dinner: 4:00PM - 7:00PM <br>
+                <h4>Friday:</h4>
+                   Friday Dinner: 4:00PM - 6:00PM <br>
+                <h4>Saturday-Sunday</h4>
+                   Brunch: 11:00AM - 1:00PM
+                <h4>Saturday:</h4>
+                   Dinner: 4:00PM - 6:00PM
+                <h4>Sunday:</h4>
+                   Dinner: 4:00PM - 7:00PM
+        </td>
+        </tr>
+        <tr>
+        <td><h4>The Zone</h4></td>
+        <td><h4>Monday-Thursday: </h4>
+            Lunch: 12:00PM - 3:00PM <br>
+            Dinner: 4:00PM - 7:00PM <br>
+           <h4>Friday:</h4>
+            Lunch: 12:00PM - 3:00PM <br>
+            Friday Dinner: Closed 
+           <h4>Saturday-Sunday:</h4>
+            Saturday & Sunday: Closed
+        </td>
+        <tr>
+        <td><h4>Grab-N-Go</h4></td>
+        <td><h4>Monday-Thursday:</h4>
+            Continuous Dining: 12:00PM - 8:00PM <br>
+            <h4>Friday:</h4>
+            Continuous Dining: 12:00PM - 3:00PM
+        </td>
+        </tr>
+        </table>
+        <br>
+        <br>
+        <table>
+        <tr>
+            <th><h4>Retial Dining</h4></th>
+            <th>Hours</th>
+        </tr>
+        <tr>
+            <td><h4>PVMart(C-Store)</h4></td>
+            <td><h4>Monday-Thursday:</h4>
+            9:00AM - 9:00PM <br>
+            <h4>Friday:</h4> 
+            9:00AM - 8:00PM
+            <tr>
+            <td><h4>Strike Zone</h4></td>
+            <td><h4>Monday-Thursday:</h4>
+                11:00AM - 9:00PM <br>
+            <h4>Friday:</h4>
+                11:00AM - 8:00PM
+            </td>
+            </tr>
+            </table>
+          <table>
+          <tr>
+            <th>Other</th>
+            <th>Hours</th>
+          </tr>
+          <tr>
+          <td><h4>Dunkin</h4></td>
+            <td><h4>Monday-Thursday:</h4>
+                Normal Operating Hours: 8:00AM - 8:00PM <br>
+            <h4>Friday:</h4>
+                Friday Operating Hours: 8:00AM - 3:00PM
+          </tr>
+
+        
+</body>
+</html>
+

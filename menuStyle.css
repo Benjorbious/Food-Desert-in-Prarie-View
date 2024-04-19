@@ -6,6 +6,9 @@
     height: auto;
     vertical-align: middle;
 }
+#logoLink:hover {
+    cursor: default;
+}
 .topBar {
     position: relative;
     height: auto;

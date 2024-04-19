@@ -21,7 +21,7 @@ header {
   text-align: center;
 }
 
-img {
+.foodImage {
   border: none #ddd;
   border-radius: 5px;
   padding: 8px;
@@ -39,14 +39,6 @@ p {
 </style>
 </head>
 <style>
-
-.container {
-  position: relative;
-  width: 25%;
-  transform: translate(610px, 30px);
-
-}
-
 .image {
   opacity: 1;
   display: block;
@@ -67,16 +59,6 @@ p {
   text-align: center;
 }
 
-.container:hover .image {
-  opacity: 0.3;
-  transform: translate(0px, 0px);
-}
-
-.container:hover .middle {
-  opacity: 1;
-  transform: translate(0px, 0px);
-}
-
 .text {
   background-color: #FFFF00;
   color: purple;
@@ -94,12 +76,12 @@ p {
 
 #paragraph {
   padding-bottom: 2%;
+  padding-inline: .5%;
 }
 
 #list {
   padding-bottom: 2%;
 }
-
 </style>
 </head>
 <header>
@@ -114,7 +96,7 @@ p {
         <button type = "button" class = "topButtons" id = "hours" onclick="window.location.href = '../hours/hour.html'">
             Hours
         </button>
-            <a id = "logoLink" href = "../index.html"><img src = "../logo.png" id = "logo" alt = "logo"></a>
+        <a id = "logoLink" href = "../index.html"><img src = "../logo.png" id = "logo" alt = "logo"></a>
         <button type = "button" class = "topButtons" id = "collegeComparisons" onclick="window.location.href = '../collegeComparisons/index.html'">
             College Comparisons
         </button>
@@ -130,13 +112,8 @@ p {
 
 </header>
 <body>
-<div class="container">
-  <div class="middle">
-    <div class="text">Home</div>
-  </div>
-</div>
 <h1 id = "title"><center><b><u>The Benefits</u></b></center></h1>
-<center><img src="Starbucks workers.jpg" id = "image" alt="Workers" style="width:700px"> </center>
+<center><img class = "foodImage" src="Starbucks workers.jpg" id = "image" alt="Workers" style="width:700px"> </center>
 <center><p id = "paragraph"><font color="white">As you may know now, there are a limited amount of facilities for students that live on Prairie view's campus compared to other campuses. Expanding and enhancing food facilities on Prairie View's campus could have a significant impact on various aspects of student life. With the current limited facilities in comparison to other campuses, there's a clear opportunity to improve student experiences in several ways. Improving and building more food facilities for students to use would greatly improve the following.</p></center>
 <center><ul id = "list">
 <li>Provide more jobs around campus for students</li>
@@ -144,7 +121,7 @@ p {
 <li> Help students expand eating palletes/Habits.</li>
 </ul>
 <style>
-img:hover {
+.foodImage:hover {
   animation: shake 0.5s;
   animation-iteration-count: 0.75;
 }
@@ -165,10 +142,10 @@ img:hover {
 </style>
 <div>
 </head>
-  <img src="Charleys.png" alt="Charleys">
-  <img src="Auntie Anne's.png" alt="Anne's">
-  <img src="Popeyes.png" alt="Popeyes">
-  <img src="Starbucks.png" alt="Starbucks">
+  <img class = "foodImage" src="Charleys.png" alt="Charleys">
+  <img class = "foodImage" src="Auntie Anne's.png" alt="Anne's">
+  <img class = "foodImage" src="Popeyes.png" alt="Popeyes">
+  <img class = "foodImage" src="Starbucks.png" alt="Starbucks">
 </div>
 
 </body>
